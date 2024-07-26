@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta content="widthdevice-width, initial-scale=1.0" name="viewport">
+
+	<title>Login</title>
+	<meta content="" name="description">
+	<meta content="" name="keywords">
+	
+	<!-- Favicons -->
+  	<link href="assets/img/logo.png" rel="icon">
+  	<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  	<!-- Google Fonts -->
+  	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  	<!-- Vendor CSS Files -->
+  	<link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  	<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  	<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  	<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>	
+<body>
+	<!--Header-->
+	<header id="header" class="fixed-top d-flex align-items-center header-transparent">
+		<div class="container-fluid">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-xl-11 d-flex align-items-center justify-content-between">
+					<h1 class="logo"><a href="index.html">Fabex Cake's</a></h1>
+					<nav id="navbar" class="navbar">
+						<ul>
+							<li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+							<li><a class="nav-link scrollto" href="index.html#about">Sobre nós</a></li>
+							<li><a class="nav-link scrollto" href="index.html#services">Serviços</a></li>
+							<li><a class="nav-link scrollto" href="cardapio.html">Produtos</a></li>
+							<li class="dropdown"><a href="#"><span>Entre já</span><i class="bi bi-chevron-down"></i></a>
+								<ul>
+									<li><a href="#">Já sou cliente</a></li>
+									<li><a href="#">Entregador</a></li>
+									<li class="dropdown"><a href="#"><span>Cadastre-se</span> <i class="bi bi-chevron-right"></i></a>
+										<ul>
+											<li><a href="cadastroCliente.html">Quero ser cliente</a></li>
+											<li><a href="cadastroEntregador.html">Trabalhe conosco</a></li>
+										</ul>
+									</li>
+								</ul>	
+							</li>
+						</ul>
+						<i class="bi bi-list mobile-nav-toggle"></i>	
+					</nav>	
+				</div>
+			</div>		
+		</div>
+	</header>	
+	<!--end Header-->
+	<!--form Login-->
+	<section id="hero">
+    <div class="hero-container">
+    	 <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/2.jpg)">
+			<form method="POST" action="logEntregador.php" class="login-form">
+				<h3>Entregador</h3>
+				<input type="text" name="loginEnt" placeholder="Login" required><br><br>
+				<input type="password" name="senhaEnt" placeholder="*******" required><br><br>
+				<input type="submit" value=Entrar name="botao" class="btn-get-started"><br>
+			</form>
+		</div>	
+	</div>
+	</section>
+	<!--End Form Login-->
+	<!--Footer-->	
+	<footer id="footer">
+	    <div class="container">
+	      <div class="copyright">
+	        &copy; Copyright <strong>Fabex Cake's</strong>. All Rights Reserved
+	      </div>
+	      <div class="credits">
+	        Designed by <a href="https://bootstrapmade.com/">Fabex Company</a>
+	      </div>
+	    </div>
+  	</footer><!-- End Footer -->	
+
+	<!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>		
